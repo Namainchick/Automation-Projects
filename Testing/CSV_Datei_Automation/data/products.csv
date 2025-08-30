@@ -1,0 +1,4 @@
+product_number,name,description,price,stock,weight,ean,active
+SW001,Beispielprodukt 1,Dies ist ein Beispielprodukt mit vielen tollen Eigenschaften,29.99,100,0.5,1234567890123,true
+SW002,Beispielprodukt 2,Ein weiteres tolles Produkt für Ihren Shop,49.99,50,1.2,2345678901234,true
+SW003,Beispielprodukt 3,Premium Produkt mit besonderen Features,99.99,25,2.1,3456789012345,true
