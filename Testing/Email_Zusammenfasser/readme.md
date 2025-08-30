@@ -1,0 +1,1 @@
+Programm gebaut mit Streamlit Frontend um deine Emails mithilfe von Open AI zusammenzufassen
