@@ -1,0 +1,7 @@
+pyproject.toml
+mycore/__init__.py
+mycore/service.py
+mycore.egg-info/PKG-INFO
+mycore.egg-info/SOURCES.txt
+mycore.egg-info/dependency_links.txt
+mycore.egg-info/top_level.txt
