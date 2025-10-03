@@ -1,5 +1,6 @@
 import streamlit as st
 import random
+import time
 
 # Mögliche Noten
 NOTEN = [1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0, 5.0]
@@ -18,7 +19,9 @@ if st.button("Note generieren"):
 	fail_rate -= (versuch - 1) * 0.2
     
 	bestanden = random.random() > fail_rate
+	time.sleep(1)
 	if bestanden:
+		
 		# Bestehensnoten: 1.0 bis 4.0
 		note = random.choice([n for n in NOTEN if n <= 4.0])
 		st.success(f"Bestanden: {note}")
